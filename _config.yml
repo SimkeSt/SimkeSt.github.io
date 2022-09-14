@@ -1,5 +1,5 @@
-title: "Blog Title"
-author: "Blog Author"
+title: "Simkes ramblings"
+author: "Simeon Stanić"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
@@ -20,9 +20,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:simkebiz@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/SimkeSt"}
+  - {title: Facebook, icon: fa-facebook-square, url: "https://www.facebook.com/profile.php?id=100008809838806"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
