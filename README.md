@@ -11,3 +11,4 @@ My name is Simeon Stanić. Im a CS graduate from UP FAMNIT. This is my blog webs
 CV link: 
 
 
+You can also find Github and Social links in footer.
