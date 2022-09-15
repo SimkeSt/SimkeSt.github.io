@@ -1,5 +1,5 @@
 ---
-title:  "Markdown examples"
+title:  "How to build basic recommender system for movies"
 layout: post
 ---
 

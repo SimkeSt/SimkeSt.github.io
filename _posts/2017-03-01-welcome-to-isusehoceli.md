@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll"
+title: "Comparing LSTM, GRU, BILSTM for predicting crypto"
 layout: post
 ---
 
