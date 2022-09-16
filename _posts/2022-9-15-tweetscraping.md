@@ -4,6 +4,8 @@ mathjax: true
 layout: post
 categories: media
 ---
+{{ post.excerpt }}
+
 
 ## Libraries
 
