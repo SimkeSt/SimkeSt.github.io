@@ -36,7 +36,7 @@ categories: media
 
 
 
-Since this is done in pythone, we essentially need 3 libraries:
+Since this is done in python, we essentially need 3 libraries:
 
 
 
