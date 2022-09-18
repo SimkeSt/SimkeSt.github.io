@@ -13,7 +13,7 @@ categories: media
 
 ## Problem definition 
 
-In modern world, social media has became cornerstone of our lives, we spend humongous ammount of time online. This means while we are online we leave a lot of data on the social sites, like Facebook, Instagram, etc. This data is particulary useful to nearly every corporation in the world, especially in advertising. Now if we wanted to know how do users feel about particular subject, we would want to read their posts regarding them, so best place would be twitter where people leave their opinions very often. That is why twitter is the social media of choice for sentiment anaysis. We will extract two variables from users tweets, polarity and subjectivity. 
+In modern world, social media has became cornerstone of our lives, we spend humongous ammount of time online. This means while we are online we leave a lot of data on the social sites, like Facebook, Instagram, etc. This data is particulary useful to nearly every corporation in the world, especially in advertising. Now if we wanted to know how do users feel about particular subject, we would want to read their posts regarding them, so best place would be twitter where people leave their opinions very often. That is why twitter is the social media of choice for sentiment anaysis. We will extract two variables from users tweets, polarity and subjectivity. These two variables have use in many models for research and bussiness purposes. 
 
 
 
@@ -66,68 +66,24 @@ In our case we will collect data about bitcoin in defined time window. After we 
 ## Cleaning the data
 
 
-
-
-
 Since we want to analyze the data collected, the most important step is the cleaning the data. We need to remove links, special characters, etc.
 
-
-
-
-
 ![cleaning](/assets/images/ss3.png)
-
-
-
-
-
 
 
 Also, it would be advisable when scraping data to also filter spam tweets. In this example the spam filter is very basic, but it is possible to put any keyword into spam filter to make it better.
 
 
-
-
-
-
-
-
-
 ## Analysis
 
-
-
-
-
 Since the data is collected and cleaned, we can go to analyze the tweets. This is achieved by TextBlob library.
-
-
-
-
-
 Here is example how it is done:
-
-
-
-
 
 ![analyze](/assets/images/ss4.png)
 
-
-
-
-
 And if we follow the example, we get two new rows in data frame subjectivity and polarity.
 
-
-
-
-
 ![results](/assets/images/ss5.png)
-
-
-
-
 
 This data is useful, if we need to build models based on sentiment of twitter users about some topic, for example if we want to predict crypto prices based on sentiment.
 
