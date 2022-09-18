@@ -92,7 +92,7 @@ And if we follow the example, we get two new rows in data frame subjectivity and
 
 ![results](/assets/images/ss5.png)
 
-This data is useful, if we need to build models based on sentiment of twitter users about some topic, for example if we want to predict crypto prices based on sentiment.
+This data is useful, if we need to build models based on sentiment of twitter users about some topic, for example if we want to predict crypto prices, or any other application. Even in the business perspective twitter sentiment analysis allows you to keep track of what's being said about the products or services on social media, and can help detect angry customers or negative mentions before they they escalate. There are a lot of benefits of analyzing data like this, so this is valuable to almost any bigger public firm in the world.
 
 
 
