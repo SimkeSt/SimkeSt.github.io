@@ -1,23 +1,8 @@
 ---
-
-
-
 title: "Basic twitter scraping and analyzing tweets sentiment"
-
-
-
 mathjax: true
-
-
-
 layout: post
-
-
-
 categories: media
-
-
-
 ---
 
 
@@ -26,7 +11,9 @@ categories: media
 
 
 
+## Problem definition 
 
+In modern world, social media has became cornerstone of our lives, we spend humongous ammount of time online. This means while we are online we leave a lot of data on the social sites, like Facebook, Instagram, etc. This data is particulary useful to nearly every corporation in the world, especially in advertising. Now if we wanted to know how do users feel about particular subject, we would want to read their posts regarding them, so best place would be twitter where people leave their opinions very often. That is why twitter is the social media of choice for sentiment anaysis. We will extract two variables from users tweets, polarity and subjectivity. 
 
 
 
@@ -37,23 +24,9 @@ categories: media
 
 
 Since this is done in python, we essentially need 3 libraries:
-
-
-
 SNSScrape
-
-
-
 TextBlob
-
-
-
 WordCloud
-
-
-
-
-
 For clarity sake we define the libraries like this:
 
 
