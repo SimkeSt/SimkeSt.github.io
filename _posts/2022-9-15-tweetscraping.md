@@ -3,6 +3,7 @@ title: "Basic twitter scraping and analyzing tweets sentiment"
 mathjax: true
 layout: post
 categories: media
+excerpt: Showcasing how to build twitter scraper in python
 ---
 
 
